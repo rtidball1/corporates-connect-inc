@@ -3,7 +3,7 @@
 
 Who will use it: I will use this app as the founder of Corporates Connect to assign event and project tasks to ambassadors and event co-leads. This will keep event and project progress in one place, easy for everyone to track what needs to be done. I will ask one or more past ambassadors who are not in this course to try it.
 
-What they choose or type, and what they see: When an ambassador or co-lead opens the app, they can choose "Tasks to Do" and select an event or project they’re assigned to. If they’re assigned to only one, the app can take them directly to it. They can see tasks to do and tasks completed, including additional details, due dates, and progress.
+What they choose or type, and what they see: When an ambassador or co-lead opens the app, they can choose "Tasks to Do" and select an event or project they’re assigned to. If they’re assigned to only one, the app can take them directly to it. They can see tasks to do and tasks completed, including additional details, due dates, and progress. When first opening the app, ambassadors should select their name so the app knows whose tasks to show.
 
 Which table holds real data, and where it comes from: A Python script will load public holiday data for Canada and the United States from the Nager.Date API into a public_holidays table. The data includes each holiday’s date, name, country, and applicable province or state. For example, the script can request Canadian holidays from https://nagerholidays.com/api/v4/Holidays/CA/2027 and U.S. holidays from https://nagerholidays.com/api/v4/Holidays/US/2027. The app can flag event dates that overlap a public holiday.
 
